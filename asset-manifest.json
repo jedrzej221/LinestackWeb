@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/LinestackWeb/static/css/main.54fffad3.css",
+    "main.js": "/LinestackWeb/static/js/main.909631d5.js",
+    "static/js/453.8ab44547.chunk.js": "/LinestackWeb/static/js/453.8ab44547.chunk.js",
+    "index.html": "/LinestackWeb/index.html",
+    "main.54fffad3.css.map": "/LinestackWeb/static/css/main.54fffad3.css.map",
+    "main.909631d5.js.map": "/LinestackWeb/static/js/main.909631d5.js.map",
+    "453.8ab44547.chunk.js.map": "/LinestackWeb/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54fffad3.css",
+    "static/js/main.909631d5.js"
+  ]
+}
