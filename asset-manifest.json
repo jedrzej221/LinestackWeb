@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/LinestackWeb/static/css/main.54fffad3.css",
-    "main.js": "/LinestackWeb/static/js/main.909631d5.js",
+    "main.css": "/LinestackWeb/static/css/main.70a50833.css",
+    "main.js": "/LinestackWeb/static/js/main.5c5cec44.js",
     "static/js/453.8ab44547.chunk.js": "/LinestackWeb/static/js/453.8ab44547.chunk.js",
+    "static/media/LOGO_LINESTACK_full_no_background.png": "/LinestackWeb/static/media/LOGO_LINESTACK_full_no_background.0ee59bdaabe7ba214d72.png",
     "index.html": "/LinestackWeb/index.html",
-    "main.54fffad3.css.map": "/LinestackWeb/static/css/main.54fffad3.css.map",
-    "main.909631d5.js.map": "/LinestackWeb/static/js/main.909631d5.js.map",
+    "main.70a50833.css.map": "/LinestackWeb/static/css/main.70a50833.css.map",
+    "main.5c5cec44.js.map": "/LinestackWeb/static/js/main.5c5cec44.js.map",
     "453.8ab44547.chunk.js.map": "/LinestackWeb/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.54fffad3.css",
-    "static/js/main.909631d5.js"
+    "static/css/main.70a50833.css",
+    "static/js/main.5c5cec44.js"
   ]
 }
