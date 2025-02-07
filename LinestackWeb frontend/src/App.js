@@ -31,11 +31,7 @@ const App = () => {
       {/* Navbar */}
       <nav className="fixed top-4 left-1/2 transform -translate-x-1/2 w-auto bg-white/80 backdrop-blur- shadow-lg rounded-full px-8 py-3 z-50">
         <div className="flex items-center justify-between space-x-6">
-            <img
-            src={require('./assets/images/LOGO_LINESTACK_full_no_background.png')}
-            alt="Linestack Logo"
-            className="h-5"
-          />
+          <span className="text-gray-800 text-xl font-semibold">AlphaSnap</span>
           <button
             className="sm:hidden block focus:outline-none"
             aria-label="Toggle Menu"
@@ -75,7 +71,7 @@ const App = () => {
 
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-600 to-purple-700 text-white py-32 px-6 text-center">
-        <h1 className="text-5xl font-extrabold mb-6">Linestack</h1>
+        <h1 className="text-5xl font-extrabold mb-6">AlphaSnap</h1>
         <p className="text-xl mb-8">
           Redefining financial solutions with cutting-edge technology.
         </p>
@@ -91,63 +87,63 @@ const App = () => {
       <section id="about" className="py-20 px-6 max-w-6xl mx-auto text-center">
         <h2 className="text-3xl font-bold mb-6">About Us</h2>
         <p className="text-gray-600 leading-relaxed">
-          Linestack specializes in delivering tailored solutions that combine
+          AlphaSnap specializes in delivering tailored solutions that combine
           finance expertise with state-of-the-art technology.
         </p>
       </section>
 
       {/* Services Section */}
-      <section id="services" className="py-20 bg-gradient-to-b from-[#DD006F] to-[#700070] text-white px-6">
+      <section id="services" className="py-20 bg-gradient-to-r from-purple-700 to-blue-600 text-white text-center">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-12 text-white">
             Our Services
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-            <div className="bg-[#DD006F] p-6 rounded-lg shadow hover:shadow-xl transition-shadow">
-              <h3 className="text-xl font-bold text-white mb-4">
+            <div className="bg-[#F3F4F6] p-6 rounded-lg shadow hover:shadow-xl transition-shadow">
+              <h3 className="text-2xl font-semibold text-[#2D2D2D] mb-4">
                 Custom Software Development
               </h3>
-              <p>
+              <p className="text-gray-700">
                 Tailored software solutions to meet your unique business requirements.
               </p>
             </div>
-            <div className="bg-[#DD006F] p-6 rounded-lg shadow hover:shadow-xl transition-shadow">
-              <h3 className="text-xl font-bold text-white mb-4">
+            <div className="bg-[#F3F4F6] p-6 rounded-lg shadow hover:shadow-xl transition-shadow">
+              <h3 className="text-2xl font-semibold text-[#2D2D2D] mb-4">
                 Dedicated IT Team
               </h3>
-              <p>
+              <p className="text-gray-700">
                 A specialized team of experts fully focused on your projects.
               </p>
             </div>
-            <div className="bg-[#DD006F] p-6 rounded-lg shadow hover:shadow-xl transition-shadow">
-              <h3 className="text-xl font-bold text-white mb-4">
+            <div className="bg-[#F3F4F6] p-6 rounded-lg shadow hover:shadow-xl transition-shadow">
+              <h3 className="text-2xl font-semibold text-[#2D2D2D] mb-4">
                 AI Solutions Development
               </h3>
-              <p>
+              <p className="text-gray-700">
                 Creating intelligent systems to automate and enhance processes.
               </p>
             </div>
-            <div className="bg-[#DD006F] p-6 rounded-lg shadow hover:shadow-xl transition-shadow">
-              <h3 className="text-xl font-bold text-white mb-4">
+            <div className="bg-[#F3F4F6] p-6 rounded-lg shadow hover:shadow-xl transition-shadow">
+              <h3 className="text-2xl font-semibold text-[#2D2D2D] mb-4">
                 IT Consulting
               </h3>
-              <p>
+              <p className="text-gray-700">
                 Professional advice to improve your IT infrastructure and strategy.
               </p>
             </div>
-            <div className="bg-[#DD006F] p-6 rounded-lg shadow hover:shadow-xl transition-shadow">
-              <h3 className="text-xl font-bold text-white mb-4">
+            <div className="bg-[#F3F4F6] p-6 rounded-lg shadow hover:shadow-xl transition-shadow">
+              <h3 className="text-2xl font-semibold text-[#2D2D2D] mb-4">
                 Web Application Development
               </h3>
-              <p>
+              <p className="text-gray-700">
                 Building responsive and scalable web apps to grow your business.
               </p>
             </div>
-            <div className="bg-[#DD006F] p-6 rounded-lg shadow hover:shadow-xl transition-shadow">
-              <h3 className="text-xl font-bold text-white mb-4">
+            <div className="bg-[#F3F4F6] p-6 rounded-lg shadow hover:shadow-xl transition-shadow">
+              <h3 className="text-2xl font-semibold text-[#2D2D2D] mb-4">
                 Mobile Application Development
               </h3>
-              <p>
+              <p className="text-gray-700">
                 Crafting user-friendly mobile apps for iOS and Android.
               </p>
             </div>
@@ -172,7 +168,7 @@ const App = () => {
 
       {/* Footer */}
       <footer className="py-6 bg-gray-900 text-gray-400 text-center">
-        <p>&copy; Copyright 2024 Linestack. All rights reserved.</p>
+        <p>&copy; Copyright 2025 AlphaSnap Technologies. All rights reserved.</p>
       </footer>
     </div>
   );
