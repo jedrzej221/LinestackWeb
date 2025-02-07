@@ -69,8 +69,8 @@ const App = () => {
         </div>
       </nav>
 
-      {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-600 to-purple-700 text-white py-32 px-6 text-center">
+      {/* Hero Section */} 
+      <section className="py-20 bg-gradient-to-r from-purple-700 to-blue-600 text-white text-center py-32 px-6 text-center">
         <h1 className="text-5xl font-extrabold mb-6">AlphaSnap</h1>
         <p className="text-xl mb-8">
           Redefining financial solutions with cutting-edge technology.
@@ -84,9 +84,9 @@ const App = () => {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-20 px-6 max-w-6xl mx-auto text-center">
+      <section id="about" className="py-20 bg-gradient-to-r from-purple-700 to-blue-600 text-white text-center">
         <h2 className="text-3xl font-bold mb-6">About Us</h2>
-        <p className="text-gray-600 leading-relaxed">
+        <p className="text-white-600 leading-relaxed">
           AlphaSnap specializes in delivering tailored solutions that combine
           finance expertise with state-of-the-art technology.
         </p>
